@@ -79,9 +79,6 @@ namespace TestTrigger
 			TxtSayfa.Text = dataGridView1.Rows[secilen].Cells[3].Value.ToString();
 			TxtYayinevi.Text = dataGridView1.Rows[secilen].Cells[4].Value.ToString();
 			TxtTur.Text = dataGridView1.Rows[secilen].Cells[5].Value.ToString();
-
-
-
 		}
 
 		private void BtnSil_Click(object sender, EventArgs e)
